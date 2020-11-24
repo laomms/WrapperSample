@@ -54,7 +54,6 @@ public class B4AWrapperClass extends AbsObjectWrapper<VhostsActivity> {
     BALayout layout;
     Intent intent;
     Context context;
-    private boolean waitingForVPNStart;
 
     public void Initialize(BA paramBA, String EventName) {
         eventName = EventName.toLowerCase(BA.cul);
