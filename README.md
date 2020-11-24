@@ -17,5 +17,5 @@
   @ add to dependon in wrapper class  
 9.wrapper r.java.   
 10.try import the wrappered to B4X project.  
-11.should copy dependon jar and aar to B4X compiler additional libraries.  
+11.should copy dependon jar and aar to B4X compiler additional libraries.you can theck the item in @DependsOn(values={}) in wrapper class.      
 12.wrapper AndroidManifest.xml to Mainfest of B4X project,just copy every item from AndroidManifest.xml to Mainfest,pay attention to the format.  
