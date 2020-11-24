@@ -12,9 +12,9 @@
 5.import Core.jar and B4AShared.jar, insert 'implementation project(path: ':Core')'  and  'implementation project(path: ':B4AShared')'  
 6.create a B4X wrapper class, write the basic frame,for example, I want to display the interface of the project.  
 7.wrapper dependon items.  
-8.create a VirtualHosts project in SLC, copy android studio source to scr directory, compile, add the corresponding library according to the prompt  
-  * for jar libaraly, only copye the jar file,for aar file, need copy aar and jar files  
-  * add to dependon in wrapper class  
+8.create a VirtualHosts project in SLC, copy android studio source to scr directory, compile, add the corresponding library according to the prompt.  
+  @ for jar libaraly, only copye the jar file,for aar file, need copy aar and jar files  
+  @ add to dependon in wrapper class  
 9.wrapper r.java.   
 10.try import the wrappered to B4X project.  
 11.should copy dependon jar and aar to B4X compiler additional libraries.  
