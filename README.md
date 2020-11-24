@@ -1,6 +1,6 @@
 # WrapperSample 
 
-###Wrapper https://github.com/x-falcon/Virtual-Hosts to B4X Libary  
+### Wrapper https://github.com/x-falcon/Virtual-Hosts to B4X Libary  
 
 1.download and unzip to F:\Virtual-Hosts-master.  
 2.import project to android studio, remove unused function.  
@@ -40,11 +40,11 @@ you can check compiled b4x library xml file,it will show:<dependsOn>switch-butto
 3...\additionalres\values\styles.xml:4: error: Error retrieving parent for item: No resource found that matches the given name 'Base.Theme.AppCompat.Light'.  
 reason:missing appcompat sdk: androidx.appcompat:appcompat or android.support.v7.app.AppCompatActivity  
 solution: if is androidx project, in b4a menu, select tool-sdk manager, search appcompat, install the missing sdk and jetifier it.  
-in the b4x project, add #AdditionalJar: androidx.appcompat:appcompat  
+in the b4x project, add #AdditionalJar: androidx.appcompat:appcompat.     
 
 4. AndroidManifest.xml:20: error: Error: No resource found that matches the given name (at 'theme' with value '@style/AppTheme').  
 reason: missing original theme or style xml.  
-solution:copy original java project source folder to b4x project folder and add res to AdditionalRes in b4x project.  
+solution:copy original java project source folder to b4x project folder and add res to AdditionalRes in b4x project.    
 
 5. D:\android\tools\..\extras\b4a_local\unpacked-constraintlayout-2.0.4-63741602750389\res\values\values.xml:339: error: Attribute "android:alpha" has already been defined  
 reason: some resource in dependon aar pakage duplacate the sdk that b4a download from sdk manager.  
